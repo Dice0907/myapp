@@ -65,3 +65,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'compass-rails'
 gem 'sprockets'
 gem "font-awesome-rails"
+gem 'devise'
