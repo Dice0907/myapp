@@ -60,14 +60,38 @@
       }
       .navbar__menu--btn {
         margin-left: 30px;
+        font-size: 16px;
+        letter-spacing: .1em;
         box-sizing: border-box;
         border: none;
         text-transform: uppercase;
         background-color: transparent;
-        font-size: 16px;
-        letter-spacing: .1em;
         color:antiquewhite !important;
       }
     }
   }
 }
+
+.contents {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  position: relative;
+  &__bottom {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+    text-align:center;
+    &--button {
+      background-color: #fff;
+      border: 2px solid #333;
+      color: #333;
+      line-height: 50%;
+      overflow: hidden;
+      bottom: 0;
+    }
+  }
+}
+
