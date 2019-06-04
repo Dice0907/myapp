@@ -73,7 +73,7 @@
 
       .navbar__menu--btn {
         margin-left: 30px;
-        font-size: 16px;
+        font-size: 17px;
         letter-spacing: .1em;
         box-sizing: border-box;
         border: none;
@@ -83,6 +83,16 @@
       }
     }
   }
+}
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contents {
@@ -104,32 +114,67 @@
       width: calc(100% - 80%);
       background-color: bisque;
       display: inline-block;
+      text-align: center;
+      &-text1 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 100vh;
+      }
     }
     &--two {
       width: calc(100% - 80%);
       background-color: grey;
       display: inline;
+      text-align: center;
+      &-text2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 100vh;
+      }
     }
     &--three {
       width: calc(100% - 80%);
       background-color: bisque;
       display: inline;
+      text-align: center;
+      &-text3 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 100vh;
+      }
     }
     &--four {
       width: calc(100% - 80%);
       background-color: grey;
       display: inline;
+      text-align: center;
+      &-text4 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 100vh;
+      }
     }
     &--five {
       width: calc(100% - 80%);
       background-color: bisque;
       display: inline;
+      text-align: center;
+      &-text5 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 100vh;
+      }
     }
   }
   &__title {
     width: calc(100% - 30%);
     height: 20vh;
-    top: 40%;
+    top: 30%;
     position: absolute;
     margin: auto 0;
     left: 15%;
