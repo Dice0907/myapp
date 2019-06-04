@@ -31,6 +31,12 @@
       position: relative;
       box-sizing: border-box;
       background-color:transparent;
+      .name {
+        font-size:20px;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 0.5;
+      }
     }
     .navigation__right {
       width: 100%; 
