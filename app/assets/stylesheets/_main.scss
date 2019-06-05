@@ -112,7 +112,6 @@
     box-sizing: border-box;
     &--one {
       width: calc(100% - 80%);
-      filter: grayscale(100%);
       display: inline-block;
       text-align: center;
       background-image: image-url("06");
@@ -132,7 +131,6 @@
     }
     &--two {
       width: calc(100% - 80%);
-      filter: grayscale(100%);
       display: inline;
       text-align: center;
       background-image: image-url("01");
@@ -151,7 +149,6 @@
     }
     &--three {
       width: calc(100% - 80%);
-      filter: grayscale(100%);
       display: inline;
       text-align: center;
       background-image: image-url("04");
@@ -170,7 +167,6 @@
     }
     &--four {
       width: calc(100% - 80%);
-      filter: grayscale(100%);
       display: inline;
       text-align: center;
       background-image: image-url("02");
@@ -192,7 +188,6 @@
       display: inline;
       text-align: center;
       background-image: image-url("07");
-      filter: grayscale(100%);
       background-size: cover;
       &-text5 {
         font-size: 20px;
@@ -219,7 +214,7 @@
     box-sizing: border-box;
     &--words {
       font-size: 60px;
-      color: bisque;
+      color: white;
       font-family: 'Cedarville Cursive', cursive;
       font-weight: 500;
       margin: 0 auto;

@@ -1,0 +1,72 @@
+.contents__block--one:after {
+  content:"";
+  }
+
+.contents__block--one:hover:after{
+  content: "Nobody's perfect.";
+  color: black;
+ }  
+
+ .contents__block--one:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1, 1.1);
+ }  
+
+ .contents__block--two:after {
+  content:"";
+  }
+
+.contents__block--two:hover:after{
+  content: "Nobody's perfect.";
+  color: white;
+ }  
+
+ .contents__block--two:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1, 1.1);
+ }  
+
+
+ .contents__block--three:after {
+  content:"";
+  }
+
+.contents__block--three:hover:after{
+  content: "Nobody's perfect.";
+  color: white;
+ }  
+
+ .contents__block--three:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1, 1.1);
+ }  
+
+
+ .contents__block--four:after {
+  content:"";
+  }
+
+.contents__block--four:hover:after{
+  content: "Nobody's perfect.";
+  color: white;
+ }  
+
+ .contents__block--four:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1, 1.1);
+ }  
+
+
+ .contents__block--five:after {
+  content:"";
+  }
+
+.contents__block--five:hover:after{
+  content: "Nobody's perfect.";
+  color: white;
+ }  
+
+ .contents__block--five:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1, 1.1);
+ }  
