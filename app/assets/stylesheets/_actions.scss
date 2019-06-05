@@ -1,10 +1,21 @@
 .contents__block--one:after {
+  height: auto;
+  background:black;
+  position: absolute;
+  z-index: -1;
+  transition: all .9s;
   content:"";
   }
 
 .contents__block--one:hover:after{
   content: "Nobody's perfect.";
-  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 1;
+  color: white;
+  width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
  }  
 
  .contents__block--one:hover{
@@ -13,12 +24,21 @@
  }  
 
  .contents__block--two:after {
+  height: auto;
+  background:black;
+  position: absolute;
+  z-index: -1;
+  transition: all .9s;
   content:"";
   }
 
 .contents__block--two:hover:after{
-  content: "Nobody's perfect.";
+  content: "Carpe diem. Seize the day, boys.";
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 1;
   color: white;
+  width: 100%;
  }  
 
  .contents__block--two:hover{
@@ -28,12 +48,23 @@
 
 
  .contents__block--three:after {
+  height: auto;
+  background:black;
+  position: absolute;
+  z-index: -1;
+  transition: all .9s;
   content:"";
   }
 
 .contents__block--three:hover:after{
-  content: "Nobody's perfect.";
+  content: "The first rule of Fight Club is: You do not talk about Fight Club.";
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 1;
+  width: 100%;
   color: white;
+  word-wrap: break-word;
+  white-space: normal;
  }  
 
  .contents__block--three:hover{
@@ -43,12 +74,23 @@
 
 
  .contents__block--four:after {
+  height: auto;
+  background:black;
+  position: absolute;
+  z-index: -1;
+  transition: all .9s;
   content:"";
   }
 
 .contents__block--four:hover:after{
-  content: "Nobody's perfect.";
+  content: "I'm going to make him an offer he can't refuse.";
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 1;
+  width: 100%;
   color: white;
+  word-wrap: break-word;
+  white-space: normal;
  }  
 
  .contents__block--four:hover{
@@ -58,12 +100,23 @@
 
 
  .contents__block--five:after {
+  height: auto;
+  background:black;
+  position: absolute;
+  z-index: -1;
+  transition: all .9s;
   content:"";
   }
 
 .contents__block--five:hover:after{
-  content: "Nobody's perfect.";
+  content: "It's not my back that's killing me.";
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 1;
+  width: 100%;
   color: white;
+  word-wrap: break-word;
+  white-space: normal;
  }  
 
  .contents__block--five:hover{
