@@ -108,66 +108,92 @@
     position: absolute;
     margin: auto;
     display: flex;
-    background-color: #ffd78c;
+    background-color: transparent;
     box-sizing: border-box;
     &--one {
       width: calc(100% - 80%);
-      background-color: bisque;
       display: inline-block;
       text-align: center;
+      background-color: rgb(105,105,105);
       &-text1 {
-        font-size: 30px;
-        color: #fff;
+        font-size: 20px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 100vh;
+      }
+      &-text11 {
+        font-size: 10px;
+        color: white;
         font-family: 'Quicksand', sans-serif;
         line-height: 100vh;
       }
     }
     &--two {
       width: calc(100% - 80%);
-      background-color: grey;
+      background-color: rgb(169,169,169);
       display: inline;
       text-align: center;
       &-text2 {
-        font-size: 30px;
-        color: #fff;
+        font-size: 20px;
+        color: black;
         font-family: 'Quicksand', sans-serif;
         line-height: 100vh;
+      }
+      &-text22 {
+        font-size: 10px;
+        color: black;
+        font-family: 'Quicksand', sans-serif;
       }
     }
     &--three {
       width: calc(100% - 80%);
-      background-color: bisque;
+      background-color:rgb(105,105,105);
       display: inline;
       text-align: center;
       &-text3 {
-        font-size: 30px;
-        color: #fff;
+        font-size: 20px;
+        color: white;
         font-family: 'Quicksand', sans-serif;
         line-height: 100vh;
+      }
+      &-text33 {
+        font-size: 10px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
       }
     }
     &--four {
       width: calc(100% - 80%);
-      background-color: grey;
+      background-color: rgb(218, 218, 218);
       display: inline;
       text-align: center;
       &-text4 {
-        font-size: 30px;
-        color: #fff;
+        font-size: 20px;
+        color: black;
         font-family: 'Quicksand', sans-serif;
         line-height: 100vh;
+      }
+      &-text44 {
+        font-size: 10px;
+        color: black;
+        font-family: 'Quicksand', sans-serif;
       }
     }
     &--five {
       width: calc(100% - 80%);
-      background-color: bisque;
+      background-color: rgb(105,105,105);
       display: inline;
       text-align: center;
       &-text5 {
-        font-size: 30px;
-        color: #fff;
+        font-size: 20px;
+        color: white;
         font-family: 'Quicksand', sans-serif;
         line-height: 100vh;
+      }
+      &-text55 {
+        font-size: 10px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
       }
     }
   }
@@ -183,10 +209,28 @@
     box-sizing: border-box;
     &--words {
       font-size: 60px;
-      color: #fff;
+      color: bisque;
       font-family: 'Cedarville Cursive', cursive;
-      line-height: 2;
+      line-height: 1;
       font-weight: 500;
+      margin: 0 auto;
+    }
+  }
+  &__title2 {
+    width: calc(100% - 40%);
+    height: 10vh;
+    top: 60%;
+    position: absolute;
+    margin: auto 0;
+    left: 20%;
+    display: flex;
+    background-color: transparent;
+    box-sizing: border-box;
+    &--word {
+      font-size: 30px;
+      color: bisque;
+      font-family: 'Cedarville Cursive', cursive;
+      line-height: 1;
       margin: 0 auto;
     }
   }
