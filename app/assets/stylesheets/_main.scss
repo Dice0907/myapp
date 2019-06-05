@@ -112,6 +112,7 @@
     box-sizing: border-box;
     &--one {
       width: calc(100% - 80%);
+      filter: grayscale(100%);
       display: inline-block;
       text-align: center;
       background-image: image-url("06");
@@ -131,26 +132,26 @@
     }
     &--two {
       width: calc(100% - 80%);
-      background-color: rgb(169,169,169);
+      filter: grayscale(100%);
       display: inline;
       text-align: center;
       background-image: image-url("01");
       background-size: cover;
       &-text2 {
         font-size: 20px;
-        color: black;
+        color: white;
         font-family: 'Crimson Text', serif;
         line-height: 100vh;
       }
       &-text22 {
         font-size: 10px;
-        color: black;
+        color: white;
         font-family: 'Quicksand', sans-serif;
       }
     }
     &--three {
       width: calc(100% - 80%);
-      background-color:rgb(105,105,105);
+      filter: grayscale(100%);
       display: inline;
       text-align: center;
       background-image: image-url("04");
@@ -169,29 +170,29 @@
     }
     &--four {
       width: calc(100% - 80%);
-      background-color: rgb(218, 218, 218);
+      filter: grayscale(100%);
       display: inline;
       text-align: center;
       background-image: image-url("02");
       background-size: cover;
       &-text4 {
         font-size: 20px;
-        color: black;
+        color: white;
         font-family: 'Quicksand', sans-serif;
         line-height: 100vh;
       }
       &-text44 {
         font-size: 10px;
-        color: black;
+        color: white;
         font-family: 'Karla', sans-serif;
       }
     }
     &--five {
       width: calc(100% - 80%);
-      background-color: rgb(105,105,105);
       display: inline;
       text-align: center;
       background-image: image-url("07");
+      filter: grayscale(100%);
       background-size: cover;
       &-text5 {
         font-size: 20px;
@@ -214,13 +215,12 @@
     margin: auto 0;
     left: 15%;
     display: flex;
-    background-color: transparent;
+    background-color: rgba(167, 165, 157, 0.6%);
     box-sizing: border-box;
     &--words {
       font-size: 60px;
       color: bisque;
       font-family: 'Cedarville Cursive', cursive;
-      line-height: 1;
       font-weight: 500;
       margin: 0 auto;
     }
@@ -236,10 +236,9 @@
     background-color: transparent;
     box-sizing: border-box;
     &--word {
-      font-size: 30px;
+      font-size: 20px;
       color: bisque;
-      font-family: 'Cedarville Cursive', cursive;
-      line-height: 1;
+      font-family: 'Crimson Text', serif;
       margin: 0 auto;
     }
   }
