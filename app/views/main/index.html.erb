@@ -16,12 +16,31 @@
 		  	<%= link_to "https://www.instagram.com/theshed_jp/?hl=ja", class: "contents__btn" do %>
 			  <%= fa_icon 'instagram' %>
 			  <% end %></li>
-			<button class="navbar__menu--btn" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar__menu--btn" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" onclick="clickBtn2()">
 		   <span class="pt-1">Menu</span> <span class="contents__btn"></span>
-			  <%= fa_icon 'bars'%>
+			  <%= fa_icon 'bars'%></button>
+        <ul class='mb'>
+					<%# <a class="mb__1" href="#" id="p2">Sample1</a><br> %>
+				  <%# <a class="mb__1" href="#" id="p2">Sample2</a> %>
+				</ul>
+				</button>
     </div>
   </div>
 </nav>
+
+<%# <script>
+document.getElementById("p2").style.visibility ="hidden";
+
+function clickBtn2(){
+	const p2 = document.getElementById("p2");
+
+	if(p2.style.visibility=="visible"){
+		p2.style.visibility ="hidden";
+	}else{
+		p2.style.visibility ="visible";
+	}
+}
+</script> %>
 
 <%# <div class="navbar-collapse" id="ftco-nav" style="">
 	<ul class="navbar-nav">
